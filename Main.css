@@ -1,7 +1,7 @@
 .sidenav {
   display: none;
   height: 100%;
-  width: 450px;
+  width: 350px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -46,7 +46,6 @@
     height: 1000px;
     width: 100%;
     text-align: center;
-    margin-top: auto;
     margin-bottom: auto;
     background-color: lightgray;
 }
@@ -57,4 +56,13 @@
     margin-top: 4px;
     font-size: 50px;
     text-align: center;
+    border-bottom-style: solid;
+    border-top: solid;
 }
+@media only screen and (max-width: 1000px) {
+    .MainHeader{
+        *visibility: visible;
+    }
+    .sidenav{
+        width: 100%;
+    }
