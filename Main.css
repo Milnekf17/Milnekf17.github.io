@@ -10,6 +10,7 @@
   overflow-x: hidden;
   padding-top: 60px;
   border: solid;
+  border-width: thin;
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -45,22 +46,26 @@
     
 }
 .Photo1{
-    width: 80%;
-    height: 80%;
+    height: 100%;
+    width: 60%;
     margin-top: -495px;
     position: absolute;
     margin-left: 10px
     
+    
 }
 .Main{
-    height: 1000px;
+    height: 8000px;
     width: 98%;
     text-align: center;
     border: solid;
+    border-width: thin;
     background-color: lightgray;
     margin-top: 20px;
     margin-right: 1%;
     margin-left: 1%;
+    margin-bottom: -500px;
+    
 }
 .MainHeader{
     height: 80px;
@@ -71,6 +76,7 @@
     text-align: center;
     border-bottom-style: solid;
     border-top: solid;
+    border-width: thin;
 }
 
 @media only screen and (max-width: 1000px) {
