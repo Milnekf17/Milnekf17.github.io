@@ -20,6 +20,7 @@
   display: block;
   
 }
+
 .sidenav a:hover {
   color: darkgray;
 }
@@ -29,11 +30,6 @@
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-    .Heading1 {width: 10%}
 }
 .Heading1{
     height:30px;
@@ -45,28 +41,24 @@
     margin-right: 2%;
     
 }
-.Photo1{
+ .Photo1{
     height: 100%;
-    width: 60%;
-    margin-top: -495px;
-    position: absolute;
-    margin-left: 10px
-    
+    width: auto;
+    /* margin-left: -730px; */
     
 }
-.Main{
-    height: 8000px;
+    .Main{
+    height: 79vh;
     width: 98%;
-    text-align: center;
     border: solid;
     border-width: thin;
     background-color: lightgray;
     margin-top: 20px;
     margin-right: 1%;
     margin-left: 1%;
-    margin-bottom: -500px;
-    
-}
+    text-align: left;
+
+} 
 .MainHeader{
     height: 80px;
     width: 100%;
@@ -86,3 +78,11 @@
     .sidenav{
         width: 100%;
     }
+    .Photo{
+        width: 100%;
+    }
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+    .Heading1 {width: 10%}
+}
