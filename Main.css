@@ -38,18 +38,15 @@
     text-align: left;
     font-size: 20px;
     float: right;
-    margin-right: 2%;
-    
+    margin-right: 2%; 
 }
  .Photo1{
+    float: left;
     height: 100%;
-    width: auto;
-    /* margin-left: -730px; */
-    
-    
+    width: auto;    
 }
     .Main{
-    height: 79vh;
+    height: 78vh;
     width: 98%;
     border: solid;
     border-width: thin;
@@ -57,7 +54,7 @@
     margin-top: 20px;
     margin-right: 1%;
     margin-left: 1%;
-    text-align: left;
+    
 
 } 
 .MainHeader{
@@ -66,21 +63,22 @@
     background-color: darkturquoise;
     margin-top: 4px;
     font-size: 50px;
-    text-align: center;
     border-bottom-style: solid;
     border-top: solid;
     border-width: thin;
+    text-align: center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     .MainHeader{
         *visibility: visible;
     }
     .sidenav{
         width: 100%;
     }
-    .Photo{
+    .Photo1{
         width: 100%;
+        
     }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
