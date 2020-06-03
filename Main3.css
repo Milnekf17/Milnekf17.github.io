@@ -1,0 +1,87 @@
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: deepskyblue;
+  overflow-x: hidden;
+  padding-top: 60px;
+  border: solid;
+  border-width: thin;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  
+}
+
+.sidenav a:hover {
+  color: darkgray;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.Heading1{
+    height:30px;
+    Width:56%;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;
+    float: right;
+    margin-right: 2%; 
+}
+ .Photo1{
+    float: left;
+    height: 100%;
+    width: auto;    
+}
+    .Main{
+    height: 78vh;
+    width: 98%;
+    border: solid;
+    border-width: thin;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
+    
+
+} 
+.MainHeader{
+    height: 80px;
+    width: 100%;
+    background-color: darkturquoise;
+    margin-top: 4px;
+    font-size: 50px;
+    border-bottom-style: solid;
+    border-top: solid;
+    border-width: thin;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .MainHeader{
+        *visibility: visible;
+    }
+    .sidenav{
+        width: 100%;
+    }
+    .Photo1{
+        width: 100%;
+        
+    }
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+    .Heading1 {width: 10%}
+}
