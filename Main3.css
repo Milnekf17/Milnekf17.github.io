@@ -31,7 +31,7 @@
   font-size: 36px;
   margin-left: 50px;
 }
-.Heading1{
+.topHeading{
     height:30px;
     Width:56%;
     background-color: white;
@@ -45,7 +45,7 @@
     height: 100%;
     width: auto;    
 }
-    .Main{
+.mainInfo{
     height: 78vh;
     width: 98%;
     border: solid;
@@ -57,7 +57,7 @@
     
 
 } 
-.MainHeader{
+.mainHeader{
     height: 80px;
     width: 100%;
     background-color: darkturquoise;
