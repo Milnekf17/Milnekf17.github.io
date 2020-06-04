@@ -68,6 +68,13 @@
     border-width: thin;
     text-align: center;
 }
+.bottomImage{
+    margin-top: 20px;
+    width: 100%; 
+    height: auto;
+    border: solid;
+    border-width: thin;
+}
 @media only screen and (max-width: 800px) {
     .MainHeader{
         *visibility: visible;
