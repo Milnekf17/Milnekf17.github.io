@@ -44,7 +44,7 @@
     float: right;
     height: 100%;
     width: auto;    
-}
+} 
     .Main{
     height: 78vh;
     width: 98%;
@@ -54,6 +54,7 @@
     margin-top: 20px;
     margin-right: 1%;
     margin-left: 1%;
+    
 } 
 .MainHeader{
     height: 80px;
