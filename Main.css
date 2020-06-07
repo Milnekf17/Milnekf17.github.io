@@ -68,15 +68,23 @@
     border-width: thin;
     text-align: center;
 }
+.text{
+    display: block;
+    float: center;
+    height: auto;
+    width: 100%;
+    background-color: lightgray;
+
+}
 .bottomImage{
     margin-top: 20px;
-    width: 100%; 
+    width: 100%;  
     height: auto;
     border: solid;
-    border-width: thin;
+    border-width: thin;*/   
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1500px) {
     .MainHeader{
         *visibility: visible;
     }
@@ -86,8 +94,24 @@
     .Photo1{
         width: 100%; 
     }
-
-@media screen and (max-height: 450px) {
+    .text{
+           border: solid;
+           border-width: thin; 
+    }
+    .bottomImage{
+        margin-top: 320px
+    }
+    @media only screen and (max-width: 1250px){
+        .bottomImage{
+            margin-top: 400px;
+        }
+    }
+    @media only screen and (max-width: 1000px){
+    .bottomImage{
+        visibility: hidden;
+    }
+        
+@media screen and (max-height: 1200px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
     .Heading1 {*visibility: hidden;}
