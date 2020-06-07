@@ -101,10 +101,6 @@
     .bottomImage{
         margin-top: 320px
     }
-    @media only screen and (max-width: 1250px){
-        .bottomImage{
-            margin-top: 400px;
-        }
     }
     @media only screen and (max-width: 1000px){
     .bottomImage{
