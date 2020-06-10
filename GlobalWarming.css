@@ -88,9 +88,6 @@
     .MainHeader{
         *visibility: visible;
     }
-    .sidenav{
-        width: 100%;
-    }
     .Photo1{
         width: 100%; 
     }
@@ -105,6 +102,9 @@
     @media only screen and (max-width: 1000px){
     .bottomImage{
         visibility: hidden;
+    }
+    .sidenav{
+        width: 100%;
     }
         
 @media screen and (max-height: 1200px) {
