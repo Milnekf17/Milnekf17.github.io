@@ -86,7 +86,7 @@
     border-width: thin;*/   
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1420px) {
     .MainHeader{
         *visibility: visible;
     }
